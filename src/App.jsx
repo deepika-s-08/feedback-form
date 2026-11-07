@@ -20,10 +20,22 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     try {
-      await axios.post("http://localhost:5000/api/feedback", feedback);
+      await axios.post(
+        "https://feedback-form-y6f1.onrender.com/api/feedback",
+        feedback
+      );
+
       alert("Feedback submitted successfully!");
-      setFeedback({ q1: "", q2: "", q3: "", q4: "", q5: "" });
+
+      setFeedback({
+        q1: "",
+        q2: "",
+        q3: "",
+        q4: "",
+        q5: "",
+      });
     } catch (error) {
       console.error("Error submitting feedback:", error);
       alert("Failed to submit feedback. Please try again.");
@@ -33,6 +45,7 @@ function App() {
   return (
     <div className="container">
       <h1>Feedback Form</h1>
+
       <form onSubmit={handleSubmit} className="feedback-form">
         <label>Name:</label>
         <input
