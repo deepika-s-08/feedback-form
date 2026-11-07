@@ -1,16 +1,22 @@
-# React + Vite
+# Online Survey Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Developed by: Deepika S**
 
-Currently, two official plugins are available:
+## About the Project
+The Online Survey Application allows users to submit feedback through an online form. Submitted feedback is stored in MongoDB.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- CSS
 
-## React Compiler
+## Live Demo
+[Click Here to View the Website](https://feedback-form-ochre-chi.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Backend URL
+[View Backend](https://feedback-form-y6f1.onrender.com/)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## GitHub Repository
+[Online Survey Application](https://github.com/deepika-s-08/feedback-form)
